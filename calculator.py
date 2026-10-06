@@ -13,9 +13,9 @@ def divide(a, b):
     return a / b
 
 
-num1 = float(input("Enter first number: "))
+num1 = 5
 operator = input("Enter operator (+, -, *, /): ")
-num2 = float(input("Enter second number: "))
+num2 =4
 
 if operator == "+":
     print("Result:", add(num1, num2))
